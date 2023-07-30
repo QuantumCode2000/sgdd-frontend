@@ -1,0 +1,8 @@
+.navbar {
+    width: 300px;
+    z-index: 3;
+    height: 100vh;
+    background-color: #343a40;
+    /* position: absolute; */
+    position: fixed;
+}
