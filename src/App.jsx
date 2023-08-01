@@ -8,11 +8,12 @@ import {
 } from 'react-router-dom';
 import './App.css'
 import router from './routes/route.jsx'
+import { StateSidebarProvider } from './contexts/StateSidebar';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <StateSidebarProvider>
       <RouterProvider router={ router } />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -35,7 +36,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
 
-    </>
+    </StateSidebarProvider>
   )
 }
 

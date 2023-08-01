@@ -15,6 +15,11 @@ const router = createBrowserRouter(
             {
                 path: '/',
                 element: <Borradores />
+            },
+            // not found
+            {
+                path: '*',
+                element: <h1>Not Found</h1>
             }
         ]
 

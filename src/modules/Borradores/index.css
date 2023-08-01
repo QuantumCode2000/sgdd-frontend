@@ -1,11 +1,42 @@
-.borradores{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.main-active {
+    margin-left: 250px;
+}
+
+.main-deactive {
+    left: 0;
+}
+
+.menu-bars-deactive {
     width: 100%;
-    z-index: 0;
-    position: absolute;
+    max-width: 100%;
+    height: 57.5px;
+    margin: auto;
+    padding: 8px 8px 8px 8px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+}
+
+.menu-bars-active {
+    width: 100%;
+    height: 57.5px;
+    max-width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    padding: 8px 8px 8px 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-bars-active {
+    
+}
+
+.icon-bars {
+    width: 14px;
+    height: 16px;
 }

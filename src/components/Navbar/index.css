@@ -1,8 +1,38 @@
-.navbar {
-    width: 300px;
-    z-index: 3;
-    height: 100vh;
-    background-color: #343a40;
-    /* position: absolute; */
+/* .navbar {
     position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+} */
+
+.navbar-active {
+    position: fixed;
+    /* left: -250px; */
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    left: 0;
+}
+
+.navbar-deactive {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo-ejercito{
+    height: 150px;
+    width: 150px;
+
 }
